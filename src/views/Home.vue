@@ -339,7 +339,7 @@
       </div>
 
       <!-- MODUKAR -->
-      <div class="content-3-2 py-18 flex lg:flex-row flex-col items-center" style="font-family: 'Poppins', sans-serif">
+      <div class="content-3-2 my-18 flex lg:flex-row flex-col items-center" style="font-family: 'Poppins', sans-serif">
          <!-- left Column -->
          <div class="w-full flex flex-col lg:items-start items-center text-left lg:text-right pl-28">
                <div class="p-4 space-y-5 rounded-lg text-left lg:text-right" data-aos="fade-right">
