@@ -139,7 +139,7 @@
                   </div>
                   <div class="py-4">
                      <router-link
-                        to="https://wa.link/qylmml" blank
+                        to="https://wa.link/qylmml" target="blank_"
                         class="px-8 py-5  font-bold text-white uppercase rounded bg-yellow-500 hover:bg-yellow-400  "
                         >
                         coba sekarang
