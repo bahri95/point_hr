@@ -305,7 +305,7 @@
          
      
       <!-- ADIL -->
-      <div class="bg-gray-50 py-16 content-3-2 my-16 flex lg:flex-row flex-col items-center" style="font-family: 'Poppins', sans-serif">
+      <div class="bg-gray-50 py-16 content-3-2 mt-18 flex lg:flex-row flex-col items-center" style="font-family: 'Poppins', sans-serif">
          <!-- Left Column -->
          <div class="w-full lg:w-1/2 md:pl-28 justify-left flex lg:mb-0 mb-12">
                <img
@@ -339,7 +339,7 @@
       </div>
 
       <!-- MODUKAR -->
-      <div class="content-3-2 my-14 flex lg:flex-row flex-col items-center" style="font-family: 'Poppins', sans-serif">
+      <div class="content-3-2 py-16 flex lg:flex-row flex-col items-center" style="font-family: 'Poppins', sans-serif">
          <!-- left Column -->
          <div class="w-full flex flex-col lg:items-start items-center text-left lg:text-right pl-28">
                <div class="p-4 space-y-5 rounded-lg text-left lg:text-right" data-aos="fade-right">
@@ -371,7 +371,7 @@
          
       </div>
       <!-- INTEGRASI -->
-      <div class="bg-gray-50 content-3-2 py-16 my-16 flex lg:flex-row flex-col items-center" style="font-family: 'Poppins', sans-serif">
+      <div class="bg-gray-50 content-3-2 py-16 mb-18 flex lg:flex-row flex-col items-center" style="font-family: 'Poppins', sans-serif">
          <!-- Left Column -->
          <div class="w-full lg:w-1/2 pl-28 justify-left flex lg:mb-0 mb-12">
                <img
