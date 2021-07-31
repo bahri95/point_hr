@@ -4,7 +4,7 @@
       class="items-center  hidden space-x-6 pt-2 pr-24 text-sm font-bold text-gray-100 uppercase sm:flex "
     >
       <router-link  to="/">Home</router-link>
-      <router-link  to="/product">Product</router-link>
+      <router-link  to="/product">Pricing</router-link>
     
     </div>
     <div
@@ -35,11 +35,8 @@
     class="absolute left-0 z-20 flex flex-col w-full p-4 mt-5 space-y-3 bg-white shadow-md"
   >
     <router-link @click="isMenuOpen = false" to="/">Home</router-link>
-    <router-link @click="isMenuOpen = false" to="/product">Product</router-link>
-    <router-link @click="isMenuOpen = false" to="/product">KPI</router-link>
-    <router-link @click="isMenuOpen = false" to="/">Sales Visitation</router-link>
-    <router-link @click="isMenuOpen = false" to="/product">Absensi</router-link>
-    <router-link @click="isMenuOpen = false" to="/product">Chekin</router-link>
+    <router-link @click="isMenuOpen = false" to="/product">Pricing</router-link>
+    
   </div>
 </template>
 

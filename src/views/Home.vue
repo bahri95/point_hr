@@ -15,12 +15,13 @@
                      terbaik. Capai target perusahaan dan evaluasi karyawan terbaik
                      anda.
                   </p>
-                  <router-link
-                     to="https://wa.link/qylmml" blank
-                     class="px-8 py-5 my-10 font-bold text-white uppercase rounded bg-yellow-500 hover:bg-yellow-400  "
-                     >
-                     hubungi kami
-                  </router-link>
+                 
+                 <a href="https://wa.link/qylmml" target="_blank"
+                  class="px-8 py-5  font-bold text-white uppercase rounded bg-yellow-500 hover:bg-yellow-400  "
+                        >
+                  hubungi kami
+                  </a>
+
                </div>
                <div class="flex items-center justify-center flex-1">
                   <img
@@ -138,12 +139,11 @@
                      </p>
                   </div>
                   <div class="py-4">
-                     <router-link
-                        to="https://wa.link/qylmml" target="blank_"
-                        class="px-8 py-5  font-bold text-white uppercase rounded bg-yellow-500 hover:bg-yellow-400  "
-                        >
-                        coba sekarang
-                     </router-link>
+                    <a href="https://wa.link/qylmml" target="_blank"
+                     class="px-8 py-5  font-bold text-white uppercase rounded bg-yellow-500 hover:bg-yellow-400  "
+                           >
+                     coba sekarang
+                     </a>
                   </div>
                </div>
                <div class="flex-1 md:ml-10">
@@ -191,12 +191,11 @@
               </p>
             </div>
             <div class="py-4">
-               <router-link
-                  to="https://wa.link/qylmml" blank
+               <a href="https://wa.link/qylmml" target="_blank"
                   class="px-8 py-5  font-bold text-white uppercase rounded bg-yellow-500 hover:bg-yellow-400  "
-                  >
+                        >
                   coba sekarang
-               </router-link>
+               </a>
             </div>
           </div>
           <div class="flex-1 md:ml-10">
@@ -245,12 +244,11 @@
                      </p>
                   </div>
                   <div class="py-4">
-                     <router-link
-                        to="https://wa.link/qylmml" blank
-                        class="px-8 py-5  font-bold text-white uppercase rounded bg-yellow-500 hover:bg-yellow-400  "
-                        >
-                        coba sekarang
-                     </router-link>
+                     <a href="https://wa.link/qylmml" target="_blank"
+                     class="px-8 py-5  font-bold text-white uppercase rounded bg-yellow-500 hover:bg-yellow-400  "
+                           >
+                     coba sekarang
+                     </a>
                   </div>
                </div>
                <div class="flex-1 md:ml-10">
@@ -287,12 +285,11 @@
                      </p>
                   </div>
                   <div class="py-4">
-                     <router-link
-                        to="https://wa.link/qylmml" blank
-                        class="px-8 py-5  font-bold text-white uppercase rounded bg-yellow-500 hover:bg-yellow-400  "
-                        >
-                        coba sekarang
-                     </router-link>
+                     <a href="https://wa.link/qylmml" target="_blank"
+                     class="px-8 py-5  font-bold text-white uppercase rounded bg-yellow-500 hover:bg-yellow-400  "
+                           >
+                     coba sekarang
+                     </a>
                   </div>
                </div>
                <div class="flex-1 md:ml-10">
@@ -331,12 +328,11 @@
                      mereka. Win-win solution, ‘kan?
                   </p>
                   <div class="py-4">
-                     <router-link
-                        to="https://wa.link/qylmml" blank
-                        class="px-8 py-5  font-bold text-white uppercase rounded bg-yellow-500 hover:bg-yellow-400  "
-                        >
-                        coba sekarang
-                     </router-link>
+                     <a href="https://wa.link/qylmml" target="_blank"
+                     class="px-8 py-5  font-bold text-white uppercase rounded bg-yellow-500 hover:bg-yellow-400  "
+                           >
+                     coba sekarang
+                     </a>
                   </div>
                </div>
          </div>
@@ -355,12 +351,11 @@
                            anda butuhkan. Mau pilih satu saja? Tentu bisa!
                   </p>
                   <div class="py-4">
-                     <router-link
-                        to="https://wa.link/qylmml" blank
-                        class="px-8 py-5  font-bold text-white uppercase rounded bg-yellow-500 hover:bg-yellow-400  "
-                        >
-                        coba sekarang
-                     </router-link>
+                     <a href="https://wa.link/qylmml" target="_blank"
+                     class="px-8 py-5  font-bold text-white uppercase rounded bg-yellow-500 hover:bg-yellow-400  "
+                           >
+                     coba sekarang
+                     </a>
                   </div>
                </div>
          </div>
@@ -397,12 +392,11 @@
                            HRIS lain? Semua data dapat terhubung dengan PointHR
                   </p>
                   <div class="py-4">
-                     <router-link
-                        to="https://wa.link/qylmml" blank
-                        class="px-8 py-5  font-bold text-white uppercase rounded bg-yellow-500 hover:bg-yellow-400  "
-                        >
-                        coba sekarang
-                     </router-link>
+                     <a href="https://wa.link/qylmml" target="_blank"
+                     class="px-8 py-5  font-bold text-white uppercase rounded bg-yellow-500 hover:bg-yellow-400  "
+                           >
+                     coba sekarang
+                     </a>
                   </div>
                </div>
          </div>
