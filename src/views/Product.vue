@@ -32,16 +32,11 @@
             <p>Database Karyawan</p>
           </div>
           <div class="flex p-4 space-x-3 text-sm">
-            <button
-              class="px-8 py-3 font-bold text-white uppercase bg-red-700 rounded-xl"
-            >
-              Info Produk
-            </button>
-            <button
-              class="px-8 py-3 font-bold text-white uppercase bg-green-700 rounded-xl"
-            >
-              Coba Sekarang
-            </button>
+           <a href="https://wa.link/qylmml" target="_blank"
+                  class="px-8 py-5  font-bold text-white uppercase rounded bg-green-500 hover:bg-green-400  "
+                        >
+                  coba sekarang
+            </a>
           </div>
         </div>
         <div
@@ -69,16 +64,11 @@
             <p>Laporan Kunjungan Sales</p>
           </div>
           <div class="flex p-4 space-x-3 text-sm">
-            <button
-              class="px-8 py-3 font-bold text-white uppercase bg-red-700 rounded-xl"
-            >
-              Info Produk
-            </button>
-            <button
-              class="px-8 py-3 font-bold text-white uppercase bg-green-700 rounded-xl"
-            >
-              Coba Sekarang
-            </button>
+             <a href="https://wa.link/qylmml" target="_blank"
+                  class="px-8 py-5  font-bold text-white uppercase rounded bg-green-500 hover:bg-green-400  "
+                        >
+                  coba sekarang
+            </a>
           </div>
         </div>
         <div
@@ -102,16 +92,11 @@
             <p>Menggunakan Geolokasi</p>
           </div>
           <div class="flex p-4 space-x-3 text-sm">
-            <button
-              class="px-8 py-3 font-bold text-white uppercase bg-red-700 rounded-xl"
-            >
-              Info Produk
-            </button>
-            <button
-              class="px-8 py-3 font-bold text-white uppercase bg-green-700 rounded-xl"
-            >
-              Coba Sekarang
-            </button>
+            <a href="https://wa.link/qylmml" target="_blank"
+                  class="px-8 py-5  font-bold text-white uppercase rounded bg-green-500 hover:bg-green-400  "
+                        >
+                  coba sekarang
+            </a>
           </div>
         </div>
         <div
@@ -135,16 +120,10 @@
             <p>Menggunakan Photo & Geolokasi</p>
           </div>
           <div class="flex p-4 space-x-3 text-sm">
-            <button
-              class="px-8 py-3 font-bold text-white uppercase bg-red-700 rounded-xl"
-            >
-              Info Produk
-            </button>
-            <a
-              href="https://checkin.pointhub.net/signup"
-              class="px-8 py-3 font-bold text-white uppercase bg-green-700 rounded-xl"
-            >
-              Coba Sekarang
+            <a href="https://wa.link/qylmml" target="_blank"
+                  class="px-8 py-5  font-bold text-white uppercase rounded bg-green-500 hover:bg-green-400  "
+                        >
+                  coba sekarang
             </a>
           </div>
         </div>

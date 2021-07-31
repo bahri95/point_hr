@@ -201,7 +201,7 @@
           <div class="flex-1 md:ml-10">
             <img
               class="w-full"
-              src="@/assets/img/home/product-sales-visitation.png"
+              src="@/assets/img/home/sales_visitation.png"
               alt=""
             />
           </div>
@@ -305,7 +305,7 @@
          
      
       <!-- ADIL -->
-      <div class="bg-gray-50 content-3-2 my-16 flex lg:flex-row flex-col items-center" style="font-family: 'Poppins', sans-serif">
+      <div class="bg-gray-50 py-16 content-3-2 my-16 flex lg:flex-row flex-col items-center" style="font-family: 'Poppins', sans-serif">
          <!-- Left Column -->
          <div class="w-full lg:w-1/2 md:pl-28 justify-left flex lg:mb-0 mb-12">
                <img
@@ -371,7 +371,7 @@
          
       </div>
       <!-- INTEGRASI -->
-      <div class="bg-gray-50 content-3-2 my-16 flex lg:flex-row flex-col items-center" style="font-family: 'Poppins', sans-serif">
+      <div class="bg-gray-50 content-3-2 py-16 my-16 flex lg:flex-row flex-col items-center" style="font-family: 'Poppins', sans-serif">
          <!-- Left Column -->
          <div class="w-full lg:w-1/2 pl-28 justify-left flex lg:mb-0 mb-12">
                <img
