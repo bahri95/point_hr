@@ -1,39 +1,6 @@
 <template>
    <div class="flex flex-col text-black">
-      <!-- HERO -->
-      <div class="text-white bg-primary pb-20">
-         <div class="container relative p-2 mx-auto space-x-5">
-            <div
-               class="flex flex-col items-center mx-auto xl:flex-row xl:max-w-screen-xl"
-               >
-               <div class="flex-1 py-5 px-4 space-y-6 xl:py-20">
-                  <h1 class="mx-auto text-3xl font-bold leading-normal md:text-5xl">
-                     Upgrade karyawanmu Upgrade bisnismu
-                  </h1>
-                  <p class="pb-16 text-xl leading-7">
-                     Kembangkan SDM dan bisnis anda dengan KPI menggunakan software HR
-                     terbaik. Capai target perusahaan dan evaluasi karyawan terbaik
-                     anda.
-                  </p>
-                 
-                 <a href="https://wa.link/qylmml" target="_blank"
-                  class="px-8 py-5  font-bold text-white uppercase rounded bg-yellow-500 hover:bg-yellow-400  "
-                        >
-                  hubungi kami
-                  </a>
-
-               </div>
-               <div class="flex items-center justify-center flex-1">
-                  <img
-                     class="hidden mt-48 mr-28 xl:block xl:absolute"
-                     style="height: 730px"
-                     src="@/assets/img/home/hero.png"
-                     alt=""
-                     />
-               </div>
-            </div>
-         </div>
-      </div>
+      
        <!-- FEATURES -->
       <div class="md:py-20 md:pb-20 sm:pt-0">
          <div class="container mx-auto space-y-16">
@@ -303,7 +270,7 @@
          </div>
       </div>
       
-      <div class="flex flex-wrap items-center py-20 bg-gray-100">
+      <div class="flex flex-wrap items-center sm:mt-20 py-20 bg-gray-100">
          <div class="md:w-4/12 md:px-24 mb-5 mr-auto ml-auto items-center">
                <img
                data-aos="fade-right"
@@ -312,7 +279,7 @@
                alt=""
                />
          </div>
-         <div class="w-11/12 md:w-6/12   md:pr-12 md:mr-24 ml-auto">
+         <div class="w-11/12 md:w-6/12 md:pr-12 md:mr-24 ml-auto" data-aos="fade-left">
             <div class="item-center">
                <h3 class="text-3xl pr-12 mb-2 font-semibold leading-normal uppercase text-gray-600">
                    Bos senang, karyawan senang
@@ -339,8 +306,8 @@
      
        
       <div class="flex flex-wrap items-center my-20">
-         <div class="w-10/12 md:w-8/12 md:px-36 mr-auto ml-auto">
-            <div class="item-center ">
+         <div class="w-10/12 md:w-8/12 md:px-36 mr-auto ml-auto" data-aos="fade-right">
+            <div class="item-center" >
                <h3 class="text-3xl mb-2 font-semibold leading-normal md:text-right uppercase text-gray-600">
                   Pilih fitur apa saja yang kamu butuh
                </h3>
@@ -361,7 +328,7 @@
          </div>
          <div class="md:w-4/12 px-2 mt-10 mr-auto ml-auto items-center">
                <img
-               data-aos="fade-right"
+               data-aos="fade-left"
                class="h-64"
                src="@/assets/img/home/2-01.png"
                alt=""
@@ -369,7 +336,7 @@
          </div>
       </div>
      
-       <div class="flex flex-wrap items-center py-20 bg-gray-100">
+       <div class="flex flex-wrap items-center py-20 bg-gray-100" >
          <div class="md:w-4/12 md:px-24 mb-5 mr-auto ml-auto items-center">
                <img
                data-aos="fade-right"
@@ -378,8 +345,8 @@
                alt=""
                />
          </div>
-         <div class="w-11/12 md:w-6/12   md:pr-12 md:mr-24 ml-auto">
-            <div class="item-center">
+         <div class="w-11/12 md:w-6/12   md:pr-12 md:mr-24 ml-auto" data-aos="fade-left">
+            <div class="item-center" >
                <h3 class="text-3xl pr-12 mb-2 font-semibold leading-normal uppercase text-gray-600">
                   Integrasikan dengan software HR yang anda punya
                </h3>
