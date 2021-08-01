@@ -305,7 +305,7 @@
       
      
        <div class="flex flex-wrap items-center py-20 bg-gray-100">
-         <div class="md:w-4/12 md:px-24 mb-5 mr-auto ml-auto items-center">
+         <div class="md:w-4/12 md:pl-32 mb-5 mr-auto ml-auto items-center">
                <img
                data-aos="fade-right"
                class="h-64"
@@ -313,8 +313,8 @@
                alt=""
                />
          </div>
-         <div class="w-11/12 md:w-6/12   md:pr-12 md:mr-24 ml-auto">
-            <div class="item-center">
+         <div class="w-11/12 md:w-6/12 pr-5 md:mr-24 ml-auto" data-aos="fade-left">
+            
                <h3 class="text-3xl pr-12 mb-2 font-semibold leading-normal uppercase text-gray-600">
                   Bos senang, karyawan senang
                </h3>
@@ -326,7 +326,7 @@
                   tercapai dan karyawan bisa mendapat upah sesuai hasil kerja
                   mereka. Win-win solution, ‘kan?
                </p>
-            </div>
+          
             <div class="py-4">
                <a href="https://wa.link/qylmml" target="_blank"
                class="px-8 py-5  font-bold text-white uppercase rounded bg-yellow-500 hover:bg-yellow-400  "
@@ -338,8 +338,8 @@
          
       </div>
       <div class="flex flex-wrap items-center my-20">
-         <div class="w-10/12 md:w-8/12 md:px-36 mr-auto ml-auto">
-            <div class="item-center ">
+         <div class="w-10/12 md:w-8/12 md:px-36 mr-auto ml-auto" data-aos="fade-right">
+            
                <h3 class="text-3xl mb-2 font-semibold leading-normal md:text-right uppercase text-gray-600">
                   Pilih fitur apa saja yang kamu butuh
                </h3>
@@ -349,7 +349,7 @@
                   Kamu bisa pilih salah satu atau beberapa fitur sesuai yang
                   anda butuhkan. Mau pilih satu saja? Tentu bisa!
                </p>
-            </div>
+           
             <div class="py-4 md:float-right">
                <a href="https://wa.link/qylmml" target="_blank"
                class="px-8 py-5 font-bold text-white uppercase rounded bg-yellow-500 hover:bg-yellow-400  "
@@ -360,7 +360,7 @@
          </div>
          <div class="md:w-4/12 px-2 mt-10 mr-auto ml-auto items-center">
                <img
-               data-aos="fade-right"
+               data-aos="fade-left"
                class="h-64"
                src="@/assets/img/home/2-01.png"
                alt=""
@@ -369,7 +369,7 @@
       </div>
      
        <div class="flex flex-wrap items-center py-20 bg-gray-100">
-         <div class="md:w-4/12 md:px-24 mb-5 mr-auto ml-auto items-center">
+         <div class="md:w-4/12 md:pl-32 mb-5 mr-auto ml-auto items-center">
                <img
                data-aos="fade-right"
                class="h-64"
@@ -377,8 +377,8 @@
                alt=""
                />
          </div>
-         <div class="w-11/12 md:w-6/12   md:pr-12 md:mr-24 ml-auto">
-            <div class="item-center">
+         <div class="w-11/12 md:w-6/12 pr-5 md:mr-24 ml-auto" data-aos="fade-left">
+            
                <h3 class="text-3xl pr-12 mb-2 font-semibold leading-normal uppercase text-gray-600">
                   Integrasikan dengan software HR yang anda punya
                </h3>
@@ -388,7 +388,7 @@
                   Ingin pakai software KPI Point namun sudah memakai software
                   HRIS lain? Semua data dapat terhubung dengan PointHR
                </p>
-            </div>
+            
             <div class="py-4">
                <a href="https://wa.link/qylmml" target="_blank"
                class="px-8 py-5  font-bold text-white uppercase rounded bg-yellow-500 hover:bg-yellow-400  "
