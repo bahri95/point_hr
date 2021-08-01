@@ -8,7 +8,7 @@
     
     </div>
     <div
-      class="flex items-center space-x-6 text-sm text-gray-800 uppercase sm:hidden"
+      class="flex items-center space-x-6 text-sm text-white uppercase sm:hidden"
     >
       <button @click="isMenuOpen = !isMenuOpen">
         <svg

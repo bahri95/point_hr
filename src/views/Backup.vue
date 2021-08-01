@@ -1,10 +1,12 @@
- <!-- HERO -->
-      <div class="text-white bg-primary">
+<template>
+   <div class="flex flex-col text-black">
+      <!-- HERO -->
+      <div class="text-white bg-primary pb-20">
          <div class="container relative p-2 mx-auto space-x-5">
             <div
                class="flex flex-col items-center mx-auto xl:flex-row xl:max-w-screen-xl"
                >
-               <div class="flex-1 px-10 py-5 space-y-6 xl:py-20">
+               <div class="flex-1 py-5 px-4 space-y-6 xl:py-20">
                   <h1 class="mx-auto text-3xl font-bold leading-normal md:text-5xl">
                      Upgrade karyawanmu Upgrade bisnismu
                   </h1>
@@ -13,12 +15,13 @@
                      terbaik. Capai target perusahaan dan evaluasi karyawan terbaik
                      anda.
                   </p>
-                  <router-link
-                     to="https://wa.link/qylmml" blank
-                     class="px-8 py-5 my-10 font-bold text-white uppercase rounded bg-yellow-500 hover:bg-yellow-400  "
-                     >
-                     hubungi kami
-                  </router-link>
+                 
+                 <a href="https://wa.link/qylmml" target="_blank"
+                  class="px-8 py-5  font-bold text-white uppercase rounded bg-yellow-500 hover:bg-yellow-400  "
+                        >
+                  hubungi kami
+                  </a>
+
                </div>
                <div class="flex items-center justify-center flex-1">
                   <img
@@ -31,8 +34,8 @@
             </div>
          </div>
       </div>
-      <!-- FEATURES -->
-      <div class="py-20 md:pb-20 md:pt-40">
+       <!-- FEATURES -->
+      <div class="md:py-20 md:pb-20 sm:pt-0">
          <div class="container mx-auto space-y-16">
             <div class="px-12 space-y-5 text-center">
                <div class="flex mt-5 items-center justify-center max-w-screen-xl mx-auto">
@@ -108,7 +111,7 @@
                      <h2 class="text-xl font-extrabold text-gray-600">
                         1. Monitoring kinerja karyawan dan target bisnis tanpa ribet
                      </h2>
-                     <p class="text-lg f leading-8 text-gray-400 text-sm">
+                     <p class="f-leading-8 text-gray-400 text-sm">
                         Pantau performa karyawan dalam mencapai target secara transparan
                         dan detail. Bukti pekerjaan dan laporan dapat terpantau lebih
                         mudah dengan Point KPI. Dilengkapi fitur feedback untuk
@@ -136,12 +139,11 @@
                      </p>
                   </div>
                   <div class="py-4">
-                     <router-link
-                        to="https://wa.link/qylmml" blank
-                        class="px-8 py-5  font-bold text-white uppercase rounded bg-yellow-500 hover:bg-yellow-400  "
-                        >
-                        coba sekarang
-                     </router-link>
+                    <a href="https://wa.link/qylmml" target="_blank"
+                     class="px-8 py-5  font-bold text-white uppercase rounded bg-yellow-500 hover:bg-yellow-400  "
+                           >
+                     coba sekarang
+                     </a>
                   </div>
                </div>
                <div class="flex-1 md:ml-10">
@@ -153,50 +155,57 @@
                </div>
             </div>
             <!-- SALES VISITATION -->
-            <div
-               data-aos="fade-up"
-               class="flex flex-col items-center max-w-screen-lg px-4 mx-auto md:flex-row"
-               v-if="showFeature == 'sales-visitation'"
-               >
-               <div class="flex-1  py-20">
-                  <div class="p-4 space-y-5 border border-gray-300 rounded-lg">
-                     <h2 class="text-xl font-extrabold text-gray-600">
-                        1. Cegah kekeliruan penghitungan data sales
-                     </h2>
-                     <p class="text-lg leading-8 text-gray-400">
-                        Mencegah kekeliruan dan kecurangan penghitungan kas masuk dan
-                        jumlah stok dengan data realtime.
-                     </p>
-                  </div>
-                  <div class="p-4 space-y-5 border border-gray-300 rounded-lg">
-                     <h2 class="text-xl font-extrabold text-gray-600">
-                        2. Fitur survey untuk meningkatkan kualitas penjualan
-                     </h2>
-                     <p class="text-lg leading-8 text-gray-400">
-                        Anda dapat mendata pendapat dari pembeli tentang produk yang
-                        anda jual, guna meningkatkan atau memperbaiki kualitas produk.
-                     </p>
-                  </div>
-                  <div class="p-4 space-y-5 border border-gray-300 rounded-lg">
-                     <h2 class="text-xl font-extrabold text-gray-600">
-                        3. Bukti sales visit lebih cepat dan akurat
-                     </h2>
-                     <p class="text-lg leading-8 text-gray-400">
-                        Laporan kunjungan lebih teratur dan tidak perlu menunggu
-                        seharian untuk mengetahui data sales setiap harinya. Selain itu,
-                        terdapat juga fitur pengambilan foto dan GPS saat tiba di
-                        lokasi.
-                     </p>
-                  </div>
-               </div>
-               <div class="flex-1 md:ml-10">
-                  <img
-                     class="w-full"
-                     src="@/assets/img/home/sales_visitation.png"
-                     alt=""
-                     />
-               </div>
+        <div
+          data-aos="fade-up"
+          class="flex flex-col items-center max-w-screen-lg px-4 mx-auto md:flex-row"
+          v-if="showFeature == 'sales-visitation'"
+        >
+          <div class="flex-1 space-y-5">
+            <div class="p-4 space-y-5 border border-gray-300 rounded-lg">
+              <h2 class="text-xl font-extrabold text-gray-600">
+                1. Cegah kekeliruan penghitungan data sales
+              </h2>
+              <p class="text-lg leading-8 text-gray-400">
+                Mencegah kekeliruan dan kecurangan penghitungan kas masuk dan
+                jumlah stok dengan data realtime.
+              </p>
             </div>
+            <div class="p-4 space-y-5 border border-gray-300 rounded-lg">
+              <h2 class="text-xl font-extrabold text-gray-600">
+                2. Fitur survey untuk meningkatkan kualitas penjualan
+              </h2>
+              <p class="text-lg leading-8 text-gray-400">
+                Anda dapat mendata pendapat dari pembeli tentang produk yang
+                anda jual, guna meningkatkan atau memperbaiki kualitas produk.
+              </p>
+            </div>
+            <div class="p-4 space-y-5 border border-gray-300 rounded-lg">
+              <h2 class="text-xl font-extrabold text-gray-600">
+                3. Bukti sales visit lebih cepat dan akurat
+              </h2>
+              <p class="text-lg leading-8 text-gray-400">
+                Laporan kunjungan lebih teratur dan tidak perlu menunggu
+                seharian untuk mengetahui data sales setiap harinya. Selain itu,
+                terdapat juga fitur pengambilan foto dan GPS saat tiba di
+                lokasi.
+              </p>
+            </div>
+            <div class="py-4">
+               <a href="https://wa.link/qylmml" target="_blank"
+                  class="px-8 py-5  font-bold text-white uppercase rounded bg-yellow-500 hover:bg-yellow-400  "
+                        >
+                  coba sekarang
+               </a>
+            </div>
+          </div>
+          <div class="flex-1 md:ml-10">
+            <img
+              class="w-full"
+              src="@/assets/img/home/sales_visitation.png"
+              alt=""
+            />
+          </div>
+        </div>
             <!-- ABSENSI -->
             <div
                data-aos="fade-up"
@@ -234,6 +243,13 @@
                         memperpanjang.
                      </p>
                   </div>
+                  <div class="py-4">
+                     <a href="https://wa.link/qylmml" target="_blank"
+                     class="px-8 py-5  font-bold text-white uppercase rounded bg-yellow-500 hover:bg-yellow-400  "
+                           >
+                     coba sekarang
+                     </a>
+                  </div>
                </div>
                <div class="flex-1 md:ml-10">
                   <img
@@ -268,6 +284,13 @@
                         Absen dengan foto terkini dan lokasi tempat check-in.
                      </p>
                   </div>
+                  <div class="py-4">
+                     <a href="https://wa.link/qylmml" target="_blank"
+                     class="px-8 py-5  font-bold text-white uppercase rounded bg-yellow-500 hover:bg-yellow-400  "
+                           >
+                     coba sekarang
+                     </a>
+                  </div>
                </div>
                <div class="flex-1 md:ml-10">
                   <img
@@ -278,199 +301,147 @@
                </div>
             </div>
          </div>
-         <!-- ADIL -->
-         <div class="my-32 px-20 bg-gray-50 ">
-            <div class="container space-y-20">
-               <div class="flex  items-center flex-1 justify-center max-w-screen-xl mx-auto ">
-                  <div
-                     class="flex mx-16 flex-col items-center space-x-10 md:flex-row"
-                     >
-                     <img
-                        data-aos="fade-right"
-                        class="h-64"
-                        src="@/assets/img/home/1-01.png"
-                        alt=""
-                        />
-                     <div class="p-4 space-y-5 rounded-lg text-left" data-aos="fade-left">
-                        <h2 class="text-3xl font-extrabold uppercase">
-                           Bos senang, karyawan senang
-                        </h2>
-                        <p class="text-xl leading-10 text-gray-500" >
-                           Keadilan bagi pemilik usaha dan karyawan. Dengan monitoring
-                           kinerja dan produktivitas karyawan, membantu target perusahaan
-                           tercapai dan karyawan bisa mendapat upah sesuai hasil kerja
-                           mereka. Win-win solution, ‘kan?
-                        </p>
-                        <div class="py-4">
-                           <router-link
-                              to="https://wa.link/qylmml" blank
-                              class="px-8 py-5  font-bold text-white uppercase rounded bg-yellow-500 hover:bg-yellow-400  "
-                              >
-                              coba sekarang
-                           </router-link>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
+      </div>
+      
+      <!-- INTEGRASI -->
+      <div class="bg-gray-50 content-3-3 py-16 mb-18 flex lg:flex-row flex-col items-center" style="font-family: 'Poppins', sans-serif">
+         <!-- Left Column -->
+         <div class="w-full lg:w-1/2 md:pl-28 max-auto justify-left flex lg:mb-0 mb-12">
+               <img
+                  data-aos="fade-right"
+                  class="h-64"
+                  src="@/assets/img/home/1-01.png"
+                  alt=""
+                  />
          </div>
-         <!-- MODUKAR -->
-         <div class="my-32 bg-white">
-            <div class="container ml-64 space-y-20" >
-               <div
-                  class="flex flex-col-reverse items-center space-x-10 md:flex-row"
-                  >
-                  <div class="flex-1 space-y-5" data-aos="fade-right">
-                     <div class="p-4 space-y-5 text-right rounded-lg">
-                        <h2 class="text-3xl space-x-10 font-extrabold uppercase ">
-                           Pilih fitur apa saja yang kamu butuh
-                        </h2>
-                        <p class="text-xl leading-10 text-gray-500">
-                           Kamu bisa pilih salah satu atau beberapa fitur sesuai yang
-                           anda butuhkan. Mau pilih satu saja? Tentu bisa!
-                        </p>
-                        <div class="py-4">
-                           <router-link
-                              to="https://wa.link/qylmml" blank
-                              class="px-8 py-5  font-bold text-white uppercase rounded bg-yellow-500 hover:bg-yellow-400  "
-                              >
-                              coba sekarang
-                           </router-link>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="flex-1 lg:px-2" data-aos="fade-left">
-                     <img class="h-64" src="@/assets/img/home/2-01.png" alt="" />
-                  </div>
-               </div>
-            </div>
-         </div>
-         <!-- INTEGRASI -->
-         <div class="my-32 px-20 bg-gray-50  ">
-            <div class="container space-y-20">
-               <div class="flex  items-center flex-1 justify-center max-w-screen-xl mx-auto ">
-                  <div
-                     class="flex mx-16 flex-col items-center space-x-10 md:flex-row"
-                     >
-                     <img
-                        data-aos="fade-right"
-                        class="h-64"
-                        src="@/assets/img/home/1-01.png"
-                        alt=""
-                        />
-                     <div class="p-4 space-y-5 rounded-lg text-left" data-aos="fade-left">
-                        <h2 class="text-3xl font-extrabold uppercase">
-                           Integrasikan dengan software HR yang anda punya
-                        </h2>
-                        <p class="text-xl leading-10 text-gray-500">
-                           Ingin pakai software KPI Point namun sudah memakai software
+         <!-- Right Column -->
+         <div class="w-full flex flex-col lg:items-start items-center lg:text-left lg:mr-48">
+               <div class="p-4 space-y-5 rounded-lg text-left" data-aos="fade-left">
+                  <h2 class="text-3xl font-extrabold uppercase">
+                     Integrasikan dengan software HR yang anda punya
+                  </h2>
+                  <p class="text-xl leading-10 text-gray-500">
+                     Ingin pakai software KPI Point namun sudah memakai software
                            HRIS lain? Semua data dapat terhubung dengan PointHR
-                        </p>
-                        <div class="py-4">
-                           <router-link
-                              to="https://wa.link/qylmml" blank
-                              class="px-8 py-5  font-bold text-white uppercase rounded bg-yellow-500 hover:bg-yellow-400  "
-                              >
-                              coba sekarang
-                           </router-link>
-                        </div>
-                     </div>
+                  </p>
+                  <div class="py-4">
+                     <a href="https://wa.link/qylmml" target="_blank"
+                     class="px-8 py-5  font-bold text-white uppercase rounded bg-yellow-500 hover:bg-yellow-400  "
+                           >
+                     coba sekarang
+                     </a>
                   </div>
                </div>
-            </div>
-         </div>
-         <!-- TESTIMONI -->
-         <div class="py-20">
-            <div class="container mx-auto space-y-20">
-               <div class="px-4 space-y-5 text-center">
-                  <h1
-                     class="text-2xl text-center text-gray-900 uppercase sm:text-3xl md:text-2xl"
-                     >
-                     Testimoni
-                  </h1>
-                  <span class="text-4xl font-extrabold text-center uppercase">
-                  Apa Kata Para Pengguna PointHR ?
-                  </span>
-               </div>
-               <div
-                  class="flex flex-col justify-center px-4 space-x-0 space-y-10 md:space-y-0 md:space-x-10 md:flex-row"
-                  data-aos="fade-up"
-                  >
-                  <div
-                     class="flex flex-col justify-between px-4 py-2 border rounded-lg md:w-1/3"
-                     >
-                     <p class="p-2">
-                        <svg
-                           aria-hidden="true"
-                           focusable="false"
-                           data-prefix="fas"
-                           data-icon="quote-right"
-                           class="h-6"
-                           role="img"
-                           xmlns="http://www.w3.org/2000/svg"
-                           viewBox="0 0 512 512"
-                           >
-                           <path
-                              fill="currentColor"
-                              d="M464 32H336c-26.5 0-48 21.5-48 48v128c0 26.5 21.5 48 48 48h80v64c0 35.3-28.7 64-64 64h-8c-13.3 0-24 10.7-24 24v48c0 13.3 10.7 24 24 24h8c88.4 0 160-71.6 160-160V80c0-26.5-21.5-48-48-48zm-288 0H48C21.5 32 0 53.5 0 80v128c0 26.5 21.5 48 48 48h80v64c0 35.3-28.7 64-64 64h-8c-13.3 0-24 10.7-24 24v48c0 13.3 10.7 24 24 24h8c88.4 0 160-71.6 160-160V80c0-26.5-21.5-48-48-48z"
-                              ></path>
-                        </svg>
-                        Saya terapkan sistem KPI ini di kantor saya. Walaupun tim saya
-                        cuman 10 orang, tapi karena KPI otomatis ini saya jadi bisa
-                        pantau hasil kerja tim saya dari rumah saat masa masa WFH
-                     </p>
-                     <p class="font-bold text-right">Stefany W</p>
-                  </div>
-                  <div
-                     class="flex flex-col justify-between px-4 py-2 border rounded-lg md:w-1/3"
-                     >
-                     <p class="p-2">
-                        <svg
-                           aria-hidden="true"
-                           focusable="false"
-                           data-prefix="fas"
-                           data-icon="quote-right"
-                           class="h-6"
-                           role="img"
-                           xmlns="http://www.w3.org/2000/svg"
-                           viewBox="0 0 512 512"
-                           >
-                           <path
-                              fill="currentColor"
-                              d="M464 32H336c-26.5 0-48 21.5-48 48v128c0 26.5 21.5 48 48 48h80v64c0 35.3-28.7 64-64 64h-8c-13.3 0-24 10.7-24 24v48c0 13.3 10.7 24 24 24h8c88.4 0 160-71.6 160-160V80c0-26.5-21.5-48-48-48zm-288 0H48C21.5 32 0 53.5 0 80v128c0 26.5 21.5 48 48 48h80v64c0 35.3-28.7 64-64 64h-8c-13.3 0-24 10.7-24 24v48c0 13.3 10.7 24 24 24h8c88.4 0 160-71.6 160-160V80c0-26.5-21.5-48-48-48z"
-                              ></path>
-                        </svg>
-                        Sangat bagus,karena itu setiap ada kebutuhan untuk pemakaian
-                        cabang baru,selalu menjadi pilihan saya
-                     </p>
-                     <p class="font-bold text-right">Hendra</p>
-                  </div>
-                  <div
-                     class="flex flex-col justify-between px-4 py-2 border rounded-lg md:w-1/3"
-                     >
-                     <p class="p-2">
-                        <svg
-                           aria-hidden="true"
-                           focusable="false"
-                           data-prefix="fas"
-                           data-icon="quote-right"
-                           class="h-6"
-                           role="img"
-                           xmlns="http://www.w3.org/2000/svg"
-                           viewBox="0 0 512 512"
-                           >
-                           <path
-                              fill="currentColor"
-                              d="M464 32H336c-26.5 0-48 21.5-48 48v128c0 26.5 21.5 48 48 48h80v64c0 35.3-28.7 64-64 64h-8c-13.3 0-24 10.7-24 24v48c0 13.3 10.7 24 24 24h8c88.4 0 160-71.6 160-160V80c0-26.5-21.5-48-48-48zm-288 0H48C21.5 32 0 53.5 0 80v128c0 26.5 21.5 48 48 48h80v64c0 35.3-28.7 64-64 64h-8c-13.3 0-24 10.7-24 24v48c0 13.3 10.7 24 24 24h8c88.4 0 160-71.6 160-160V80c0-26.5-21.5-48-48-48z"
-                              ></path>
-                        </svg>
-                        Pabrik baru saya jadi terbantu karena saat-saat seperti ini
-                        paling penting untuk tau karyawan mana yang perlu dipertahankan
-                        dan mana yang tidak sesuai dengan perusahaan.
-                     </p>
-                     <p class="font-bold text-right">T. Yudha Permana</p>
-                  </div>
-               </div>
-            </div>
          </div>
       </div>
+      <!-- TESTIMONI -->
+      <div class="py-20">
+        <div class="container mx-auto space-y-20">
+          <div class="px-4 space-y-5 text-center">
+            <h1
+              class="text-2xl text-center text-gray-900 uppercase sm:text-3xl md:text-2xl"
+            >
+              Testimoni
+            </h1>
+            <span class="text-4xl font-extrabold text-center uppercase">
+              Apa Kata Para Pengguna PointHR ?
+            </span>
+          </div>
+          <div
+            class="flex flex-col justify-center px-4 space-x-0 space-y-10 md:space-y-0 md:space-x-10 md:flex-row"
+            data-aos="fade-up"
+          >
+            <div
+              class="flex flex-col justify-between px-4 py-2 border rounded-lg md:w-1/3"
+            >
+              <p class="p-2">
+                <svg
+                  aria-hidden="true"
+                  focusable="false"
+                  data-prefix="fas"
+                  data-icon="quote-right"
+                  class="h-6"
+                  role="img"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 512 512"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M464 32H336c-26.5 0-48 21.5-48 48v128c0 26.5 21.5 48 48 48h80v64c0 35.3-28.7 64-64 64h-8c-13.3 0-24 10.7-24 24v48c0 13.3 10.7 24 24 24h8c88.4 0 160-71.6 160-160V80c0-26.5-21.5-48-48-48zm-288 0H48C21.5 32 0 53.5 0 80v128c0 26.5 21.5 48 48 48h80v64c0 35.3-28.7 64-64 64h-8c-13.3 0-24 10.7-24 24v48c0 13.3 10.7 24 24 24h8c88.4 0 160-71.6 160-160V80c0-26.5-21.5-48-48-48z"
+                  ></path>
+                </svg>
+                Saya terapkan sistem KPI ini di kantor saya. Walaupun tim saya
+                cuman 10 orang, tapi karena KPI otomatis ini saya jadi bisa
+                pantau hasil kerja tim saya dari rumah saat masa masa WFH
+              </p>
+              <p class="font-bold text-right">Stefany W</p>
+            </div>
+            <div
+              class="flex flex-col justify-between px-4 py-2 border rounded-lg md:w-1/3"
+            >
+              <p class="p-2">
+                <svg
+                  aria-hidden="true"
+                  focusable="false"
+                  data-prefix="fas"
+                  data-icon="quote-right"
+                  class="h-6"
+                  role="img"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 512 512"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M464 32H336c-26.5 0-48 21.5-48 48v128c0 26.5 21.5 48 48 48h80v64c0 35.3-28.7 64-64 64h-8c-13.3 0-24 10.7-24 24v48c0 13.3 10.7 24 24 24h8c88.4 0 160-71.6 160-160V80c0-26.5-21.5-48-48-48zm-288 0H48C21.5 32 0 53.5 0 80v128c0 26.5 21.5 48 48 48h80v64c0 35.3-28.7 64-64 64h-8c-13.3 0-24 10.7-24 24v48c0 13.3 10.7 24 24 24h8c88.4 0 160-71.6 160-160V80c0-26.5-21.5-48-48-48z"
+                  ></path>
+                </svg>
+                Sangat bagus,karena itu setiap ada kebutuhan untuk pemakaian
+                cabang baru,selalu menjadi pilihan saya
+              </p>
+              <p class="font-bold text-right">Hendra</p>
+            </div>
+            <div
+              class="flex flex-col justify-between px-4 py-2 border rounded-lg md:w-1/3"
+            >
+              <p class="p-2">
+                <svg
+                  aria-hidden="true"
+                  focusable="false"
+                  data-prefix="fas"
+                  data-icon="quote-right"
+                  class="h-6"
+                  role="img"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 512 512"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M464 32H336c-26.5 0-48 21.5-48 48v128c0 26.5 21.5 48 48 48h80v64c0 35.3-28.7 64-64 64h-8c-13.3 0-24 10.7-24 24v48c0 13.3 10.7 24 24 24h8c88.4 0 160-71.6 160-160V80c0-26.5-21.5-48-48-48zm-288 0H48C21.5 32 0 53.5 0 80v128c0 26.5 21.5 48 48 48h80v64c0 35.3-28.7 64-64 64h-8c-13.3 0-24 10.7-24 24v48c0 13.3 10.7 24 24 24h8c88.4 0 160-71.6 160-160V80c0-26.5-21.5-48-48-48z"
+                  ></path>
+                </svg>
+                Pabrik baru saya jadi terbantu karena saat-saat seperti ini
+                paling penting untuk tau karyawan mana yang perlu dipertahankan
+                dan mana yang tidak sesuai dengan perusahaan.
+              </p>
+              <p class="font-bold text-right">T. Yudha Permana</p>
+            </div>
+          </div>
+        </div>
+      </div>
+   </div>
+   
+<callout></callout>
+</template>
+<script>
+import Callout from "./_/Callout.vue";
+export default {
+  components: {
+    Callout
+  },
+  data() {
+    return {
+      showFeature: "kpi"
+    };
+  }
+};
+</script>
