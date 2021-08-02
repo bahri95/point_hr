@@ -8,6 +8,7 @@
 </template>
 
 <script>
+
 import AppHeader from "./AppHeader";
 import AppFooter from "./AppFooter";
 

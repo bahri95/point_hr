@@ -1,8 +1,8 @@
-<template>
-   <div class="flex flex-col text-black">
+<template class="mx-auto px-auto mr-0 pr-0" id="app">
+   <div class="flex flex-col">
       <!-- HERO -->
       <div class="text-white bg-primary pb-20">
-         <div class="container relative p-2 mx-auto">
+         <div class="container relative p-2 mx-auto space-x-5">
             <div
                class="flex flex-col items-center mx-auto xl:flex-row xl:max-w-screen-xl"
                >
@@ -56,9 +56,9 @@
                </div>
             </div>
             <!-- OPTIONS -->
-            <div
-               class="flex flex-col justify-center w-full p-4 mx-auto sm:flex-row sm:space-x-5"
-               >
+            <div 
+               class="flex page flex-col justify-center w-full p-4 mx-auto sm:flex-row sm:space-x-5"
+               ref="div1">
                <button
                   @click="showFeature = 'kpi'"
                   class="flex items-center px-4 py-2 space-x-3 font-extrabold border rounded-lg md:justify-center"
@@ -303,8 +303,8 @@
          </div>
       </div>
       
-      <div class="flex flex-wrap items-center sm:mt-20 py-20 bg-gray-100">
-         <div class="md:w-4/12 md:px-24 mb-5 mr-auto ml-auto items-center">
+      <div class="flex flex-wrap items-center sm:mt-10 py-20 bg-gray-100">
+         <div class="md:w-4/12 md:px-24 mb-5 ml-20 mr-auto items-center">
                <img
                data-aos="fade-right"
                class="h-64"
@@ -312,7 +312,7 @@
                alt=""
                />
          </div>
-         <div class="w-11/12 md:w-6/12   md:pr-12 md:mr-24 ml-auto">
+         <div class="w-11/12 md:w-6/12 md:pr-12 md:mr-24 ml-auto" data-aos="fade-left"> 
             <div class="item-center">
                <h3 class="text-3xl pr-12 mb-2 font-semibold leading-normal uppercase text-gray-600">
                    Bos senang, karyawan senang
@@ -339,7 +339,7 @@
      
        
       <div class="flex flex-wrap items-center my-20">
-         <div class="w-10/12 md:w-8/12 md:px-36 mr-auto ml-auto">
+         <div class="w-10/12 md:w-8/12 md:px-36 mr-auto ml-auto" data-aos="fade-right">
             <div class="item-center ">
                <h3 class="text-3xl mb-2 font-semibold leading-normal md:text-right uppercase text-gray-600">
                   Pilih fitur apa saja yang kamu butuh
@@ -361,7 +361,7 @@
          </div>
          <div class="md:w-4/12 px-2 mt-10 mr-auto ml-auto items-center">
                <img
-               data-aos="fade-right"
+               data-aos="fade-left"
                class="h-64"
                src="@/assets/img/home/2-01.png"
                alt=""
@@ -370,7 +370,7 @@
       </div>
      
        <div class="flex flex-wrap items-center py-20 bg-gray-100">
-         <div class="md:w-4/12 md:px-24 mb-5 mr-auto ml-auto items-center">
+         <div class="md:w-4/12 md:px-24 mb-5 ml-20 mr-auto items-center">
                <img
                data-aos="fade-right"
                class="h-64"
@@ -378,7 +378,7 @@
                alt=""
                />
          </div>
-         <div class="w-11/12 md:w-6/12   md:pr-12 md:mr-24 ml-auto">
+         <div class="w-11/12 md:w-6/12 md:pr-12 md:mr-24 ml-auto" data-aos="fade-left">
             <div class="item-center">
                <h3 class="text-3xl pr-12 mb-2 font-semibold leading-normal uppercase text-gray-600">
                   Integrasikan dengan software HR yang anda punya

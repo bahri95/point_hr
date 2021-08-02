@@ -31,6 +31,7 @@
             <p>Penilaian Kinerja Karyawan</p>
             <p>Database Karyawan</p>
           </div>
+           <router-link class="text-blue-700 font-bold"  to="/">Info Produk</router-link>
           <div class="flex p-4 space-x-3 text-sm">
            <a href="https://wa.link/qylmml" target="_blank"
                   class="px-8 py-5  font-bold text-white uppercase rounded bg-green-500 hover:bg-green-400  "
@@ -62,7 +63,9 @@
           <div class="space-y-1">
             <p>Absensi Sales</p>
             <p>Laporan Kunjungan Sales</p>
+            
           </div>
+          <router-link class="text-blue-700 font-bold"  to="/">Info Produk</router-link>
           <div class="flex p-4 space-x-3 text-sm">
              <a href="https://wa.link/qylmml" target="_blank"
                   class="px-8 py-5  font-bold text-white uppercase rounded bg-green-500 hover:bg-green-400  "
@@ -90,7 +93,9 @@
           <div class="space-y-1">
             <p>Absensi Karyawan</p>
             <p>Menggunakan Geolokasi</p>
+            
           </div>
+          <router-link class="text-blue-700 font-bold"  to="/">Info Produk</router-link>
           <div class="flex p-4 space-x-3 text-sm">
             <a href="https://wa.link/qylmml" target="_blank"
                   class="px-8 py-5  font-bold text-white uppercase rounded bg-green-500 hover:bg-green-400  "
@@ -119,6 +124,7 @@
             <p>Tag Lokasi</p>
             <p>Menggunakan Photo & Geolokasi</p>
           </div>
+           <router-link class="text-blue-700 font-bold"  to="/">Info Produk</router-link>
           <div class="flex p-4 space-x-3 text-sm">
             <a href="https://wa.link/qylmml" target="_blank"
                   class="px-8 py-5  font-bold text-white uppercase rounded bg-green-500 hover:bg-green-400  "
@@ -133,6 +139,7 @@
 </template>
 
 <script>
+
 export default {
   components: {}
 };

@@ -1,7 +1,7 @@
 <template>
   <div class="h-10">
     <div
-      class="items-center  hidden space-x-6 pt-2 pr-24 text-sm font-bold text-gray-100 uppercase sm:flex "
+      class="items-center  hidden space-x-6 pt-2 px-40 text-sm font-bold text-gray-100 uppercase sm:flex "
     >
       <router-link  to="/">Home</router-link>
       <router-link  to="/product">Pricing</router-link>
