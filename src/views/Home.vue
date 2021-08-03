@@ -41,7 +41,7 @@
                <div class="flex mt-5 items-center justify-center max-w-screen-xl mx-auto">
                   <div
                      class="flex flex-col items-center space-x-10 md:flex-row "
-                     data-aos="fade-left"
+                     
                      >
                      <div class="mt-16 space-y-5 rounded-lg text-center">
                         <p class="text-xl leading-10 text-gray-500">
@@ -102,7 +102,7 @@
             </div>
             <!-- KPI -->
             <div
-               data-aos="fade-up"
+               
                class="flex flex-col items-center max-w-screen-lg px-4 mx-auto md:flex-row"
                v-if="showFeature == 'kpi'"
                >
@@ -156,7 +156,7 @@
             </div>
             <!-- SALES VISITATION -->
         <div
-          data-aos="fade-up"
+         
           class="flex flex-col items-center max-w-screen-lg px-4 mx-auto md:flex-row"
           v-if="showFeature == 'sales-visitation'"
         >
@@ -208,7 +208,7 @@
         </div>
             <!-- ABSENSI -->
             <div
-               data-aos="fade-up"
+               
                class="flex flex-col items-center max-w-screen-lg px-4 mx-auto md:flex-row"
                v-if="showFeature == 'absensi'"
                >
@@ -260,7 +260,7 @@
                </div>
             </div>
             <div
-               data-aos="fade-up"
+              
                class="flex flex-col items-center max-w-screen-lg px-4 mx-auto md:flex-row"
                v-if="showFeature == 'checkin'"
                >
@@ -305,7 +305,7 @@
       <section class="relative py-20 bg-gray-100">
         <div class="container mx-auto px-4">
           <div class="items-center flex flex-wrap">
-            <div class="w-full md:w-4/12 ml-auto mr-auto px-20" data-aos="fade-right">
+            <div class="w-full md:w-4/12 ml-auto mr-auto px-20">
               <img
                 alt="..."
                 class="max-w-full h-64"
@@ -313,7 +313,7 @@
               />
             </div>
             <div class="w-full md:w-8/12 ml-auto mr-auto px-4">
-              <div class="md:pr-20" data-aos="fade-left">
+              <div class="md:pr-20">
                
                 <h3 class="text-3xl font-semibold uppercase">Bos senang, karyawan senang</h3>
                 <p class="mt-4 text-lg leading-relaxed text-gray-400">
@@ -335,10 +335,10 @@
           </div>
         </div>
       </section>
-      <section class="pb-20">
+      <section class="py-20">
         <div class="container mx-auto px-4">
-          <div class="flex flex-wrap items-center mt-32">
-            <div class="w-full md:w-7/12 pl-20 mr-auto ml-auto md:text-right items-center" data-aos="fade-right">
+          <div class="flex flex-wrap items-center">
+            <div class="w-full md:w-7/12 pl-20 mr-auto ml-auto md:text-right items-center">
               <h3 class="text-3xl mb-2 font-semibold leading-normal uppercase">
                 Pilih fitur apa saja yang kamu butuh
               </h3>
@@ -357,7 +357,7 @@
               </div>
             </div>
             
-             <div class="w-full md:w-4/12 ml-auto mr-auto pl-16" data-aos="fade-left">
+             <div class="w-full md:w-4/12 ml-auto mr-auto pl-16">
               <img
                 alt="..."
                 class="max-w-full h-64"
@@ -371,7 +371,7 @@
         
         <div class="container mx-auto px-4">
           <div class="items-center flex flex-wrap">
-            <div data-aos="fade-right" class="w-full md:w-4/12 ml-auto mr-auto md:px-16">
+            <div class="w-full md:w-4/12 ml-auto mr-auto md:px-16">
               <img
                 alt="..."
                 class="max-w-full h-64"
@@ -379,7 +379,7 @@
               />
             </div>
             <div class="w-full md:w-8/12 ml-auto mr-auto px-4">
-              <div class="md:pr-20" data-aos="fade-left">
+              <div class="md:pr-20">
                
                 <h3 class="text-3xl font-semibold uppercase">Integrasikan dengan software HR yang anda punya</h3>
                 <p class="mt-4 text-lg leading-relaxed text-gray-400">
@@ -414,7 +414,7 @@
           </div>
           <div
             class="flex flex-col justify-center px-4 space-x-0 space-y-10 md:space-y-0 md:space-x-10 md:flex-row"
-            data-aos="fade-up"
+           
           >
             <div
               class="flex flex-col justify-between px-4 py-2 border rounded-lg md:w-1/3"
