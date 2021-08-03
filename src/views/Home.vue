@@ -357,7 +357,7 @@
               </div>
             </div>
             
-             <div class="w-full md:w-4/12 ml-auto mr-auto md:pl-16 pl-5 mt-5">
+             <div class="w-full md:w-4/12 ml-auto mr-auto md:pl-16 pl-8 mt-5">
               <img
                 alt="..."
                 class="max-w-full h-64"
