@@ -305,7 +305,7 @@
       <section class="relative py-20 bg-gray-100">
         <div class="container mx-auto px-4">
           <div class="items-center flex flex-wrap">
-            <div class="w-full md:w-4/12 ml-auto mr-auto px-20">
+            <div class="w-full md:w-4/12 ml-auto mr-auto md:px-20 px-10 mb-5">
               <img
                 alt="..."
                 class="max-w-full h-64"
@@ -338,7 +338,7 @@
       <section class="py-20">
         <div class="container mx-auto px-4">
           <div class="flex flex-wrap items-center">
-            <div class="w-full md:w-7/12 pl-20 mr-auto ml-auto md:text-right items-center">
+            <div class="w-full md:w-7/12 md:pl-20 pl-5 mr-auto ml-auto md:text-right items-center">
               <h3 class="text-3xl mb-2 font-semibold leading-normal uppercase">
                 Pilih fitur apa saja yang kamu butuh
               </h3>
@@ -357,7 +357,7 @@
               </div>
             </div>
             
-             <div class="w-full md:w-4/12 ml-auto mr-auto pl-16">
+             <div class="w-full md:w-4/12 ml-auto mr-auto md:pl-16 pl-5 mt-5">
               <img
                 alt="..."
                 class="max-w-full h-64"
@@ -371,7 +371,7 @@
         
         <div class="container mx-auto px-4">
           <div class="items-center flex flex-wrap">
-            <div class="w-full md:w-4/12 ml-auto mr-auto md:px-16">
+            <div class="w-full md:w-4/12 ml-auto mr-auto md:px-20 px-10 mb-5">
               <img
                 alt="..."
                 class="max-w-full h-64"
