@@ -1,6 +1,6 @@
 <template>
   <div
-    class="fixed bottom-0 right-0 flex flex-col items-end justify-end w-full h-48 pb-10 m-auto "
+    class="fixed bottom-0 right-0 flex flex-col items-end justify-end w-full  pb-10 m-auto "
   >
     <a
       href="javascript:void(0)"
@@ -27,7 +27,7 @@
   <div
     v-if="isOpen"
   
-    class="fixed inset-0 flex flex-col justify-center w-full h-full max-w-screen-sm p-20 m-auto"
+    class="fixed inset-0 flex flex-col justify-center w-full h-full max-w-screen-sm md:p-20 m-auto"
   >
     <div
       class="flex flex-col w-full max-w-screen-sm p-4 space-y-3 bg-white rounded-md"
