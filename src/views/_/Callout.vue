@@ -1,10 +1,10 @@
 <template>
   <div
-    class="fixed bottom-0 right-0 flex flex-col items-end justify-end w-48 h-48 pb-10 pr-5 m-auto "
+    class="fixed bottom-0 right-0 flex flex-col items-end justify-end w-full h-48 pb-10 m-auto "
   >
     <a
       href="javascript:void(0)"
-      data-aos="fade-up"
+      
       @click="open()"
       class="font-extrabold text-center bg-gray-100 rounded-full shadow-lg w-36 h-36"
     >
@@ -26,7 +26,7 @@
   <div v-if="isOpen" class="fixed inset-0 bg-gray-800 opacity-75" />
   <div
     v-if="isOpen"
-    data-aos="fade-up"
+  
     class="fixed inset-0 flex flex-col justify-center w-full h-full max-w-screen-sm p-20 m-auto"
   >
     <div
