@@ -305,7 +305,7 @@
       <section class="relative py-20 bg-gray-100">
         <div class="container mx-auto px-4">
           <div class="items-center flex flex-wrap">
-            <div class="w-full md:w-4/12 ml-auto mr-auto px-20">
+            <div class="w-full md:w-4/12 ml-auto mr-auto px-20" data-aos="fade-right">
               <img
                 alt="..."
                 class="max-w-full h-64"
@@ -313,7 +313,7 @@
               />
             </div>
             <div class="w-full md:w-8/12 ml-auto mr-auto px-4">
-              <div class="md:pr-20">
+              <div class="md:pr-20" data-aos="fade-left">
                
                 <h3 class="text-3xl font-semibold uppercase">Bos senang, karyawan senang</h3>
                 <p class="mt-4 text-lg leading-relaxed text-gray-400">
@@ -338,7 +338,7 @@
       <section class="pb-20">
         <div class="container mx-auto px-4">
           <div class="flex flex-wrap items-center mt-32">
-            <div class="w-full md:w-7/12 pl-20 mr-auto ml-auto md:text-right items-center">
+            <div class="w-full md:w-7/12 pl-20 mr-auto ml-auto md:text-right items-center" data-aos="fade-right">
               <h3 class="text-3xl mb-2 font-semibold leading-normal uppercase">
                 Pilih fitur apa saja yang kamu butuh
               </h3>
@@ -357,7 +357,7 @@
               </div>
             </div>
             
-             <div class="w-full md:w-4/12 ml-auto mr-auto pl-16">
+             <div class="w-full md:w-4/12 ml-auto mr-auto pl-16" data-aos="fade-left">
               <img
                 alt="..."
                 class="max-w-full h-64"
@@ -371,7 +371,7 @@
         
         <div class="container mx-auto px-4">
           <div class="items-center flex flex-wrap">
-            <div class="w-full md:w-4/12 ml-auto mr-auto px-16">
+            <div data-aos="fade-right" class="w-full md:w-4/12 ml-auto mr-auto md:px-16">
               <img
                 alt="..."
                 class="max-w-full h-64"
@@ -379,7 +379,7 @@
               />
             </div>
             <div class="w-full md:w-8/12 ml-auto mr-auto px-4">
-              <div class="md:pr-20">
+              <div class="md:pr-20" data-aos="fade-left">
                
                 <h3 class="text-3xl font-semibold uppercase">Integrasikan dengan software HR yang anda punya</h3>
                 <p class="mt-4 text-lg leading-relaxed text-gray-400">
