@@ -302,104 +302,103 @@
             </div>
          </div>
       </div>
-      
-      <div class="flex flex-wrap items-center sm:mt-10 py-20 bg-gray-100">
-         <div class="md:w-4/12 md:px-24 mb-5 ml-20 mr-auto items-center">
-               <img
-               data-aos="fade-right"
-               class="h-64"
-               src="@/assets/img/home/1-01.png"
-               alt=""
-               />
-         </div>
-         <div class="w-11/12 md:w-6/12 md:pr-12 md:mr-24 ml-auto" data-aos="fade-left"> 
-            <div class="item-center">
-               <h3 class="text-3xl pr-12 mb-2 font-semibold leading-normal uppercase text-gray-600">
-                   Bos senang, karyawan senang
-               </h3>
-               <p
-                  class="text-lg leading-relaxed mt-4 mb-4 text-gray-400 pr-5"
-               >
+      <section class="relative py-20 bg-gray-100">
+        <div class="container mx-auto px-4">
+          <div class="items-center flex flex-wrap">
+            <div class="w-full md:w-4/12 ml-auto mr-auto px-20">
+              <img
+                alt="..."
+                class="max-w-full h-64"
+                src="@/assets/img/home/1-01.png"
+              />
+            </div>
+            <div class="w-full md:w-8/12 ml-auto mr-auto px-4">
+              <div class="md:pr-20">
+               
+                <h3 class="text-3xl font-semibold uppercase">Bos senang, karyawan senang</h3>
+                <p class="mt-4 text-lg leading-relaxed text-gray-400">
                   Keadilan bagi pemilik usaha dan karyawan. Dengan monitoring
                   kinerja dan produktivitas karyawan, membantu target perusahaan
                   tercapai dan karyawan bisa mendapat upah sesuai hasil kerja
                   mereka. Win-win solution, ‘kan?
-               </p>
+                </p>
+                <div class="pt-8">
+                  <a href="https://wa.link/qylmml" target="_blank"
+                  class="px-8 py-5  font-bold text-white uppercase rounded bg-yellow-500 hover:bg-yellow-400  "
+                        >
+                  coba sekarang
+                  </a>
+                </div>
+              </div>
+              
             </div>
-            <div class="py-4">
-               <a href="https://wa.link/qylmml" target="_blank"
-               class="px-8 py-5  font-bold text-white uppercase rounded bg-yellow-500 hover:bg-yellow-400  "
-                     >
-               coba sekarang
-               </a>
-            </div>  
-         </div>
-         
-      </div>
-     
-       
-      <div class="flex flex-wrap items-center my-20">
-         <div class="w-10/12 md:w-8/12 md:px-36 mr-auto ml-auto" data-aos="fade-right">
-            <div class="item-center ">
-               <h3 class="text-3xl mb-2 font-semibold leading-normal md:text-right uppercase text-gray-600">
-                  Pilih fitur apa saja yang kamu butuh
-               </h3>
-               <p
-                  class="text-lg leading-relaxed mt-4 mb-4 text-gray-400 md:text-right"
-               >
-                  Kamu bisa pilih salah satu atau beberapa fitur sesuai yang
+          </div>
+        </div>
+      </section>
+      <section class="pb-20">
+        <div class="container mx-auto px-4">
+          <div class="flex flex-wrap items-center mt-32">
+            <div class="w-full md:w-7/12 pl-20 mr-auto ml-auto md:text-right items-center">
+              <h3 class="text-3xl mb-2 font-semibold leading-normal uppercase">
+                Pilih fitur apa saja yang kamu butuh
+              </h3>
+              <p
+                class="text-lg leading-relaxed mt-4 mb-4 text-gray-400"
+              >
+                Kamu bisa pilih salah satu atau beberapa fitur sesuai yang
                   anda butuhkan. Mau pilih satu saja? Tentu bisa!
-               </p>
+              </p>
+              <div class="py-6">
+                  <a href="https://wa.link/qylmml" target="_blank"
+                  class="px-8 py-5  font-bold text-white uppercase rounded bg-yellow-500 hover:bg-yellow-400  "
+                        >
+                  coba sekarang
+                  </a>
+              </div>
             </div>
-            <div class="py-4 md:float-right">
-               <a href="https://wa.link/qylmml" target="_blank"
-               class="px-8 py-5 font-bold text-white uppercase rounded bg-yellow-500 hover:bg-yellow-400  "
-                     >
-               coba sekarang
-               </a>
-            </div>  
-         </div>
-         <div class="md:w-4/12 px-2 mt-10 mr-auto ml-auto items-center">
-               <img
-               data-aos="fade-left"
-               class="h-64"
-               src="@/assets/img/home/2-01.png"
-               alt=""
-               />
-         </div>
-      </div>
-     
-       <div class="flex flex-wrap items-center py-20 bg-gray-100">
-         <div class="md:w-4/12 md:px-24 mb-5 ml-20 mr-auto items-center">
-               <img
-               data-aos="fade-right"
-               class="h-64"
-               src="@/assets/img/home/1-01.png"
-               alt=""
-               />
-         </div>
-         <div class="w-11/12 md:w-6/12 md:pr-12 md:mr-24 ml-auto" data-aos="fade-left">
-            <div class="item-center">
-               <h3 class="text-3xl pr-12 mb-2 font-semibold leading-normal uppercase text-gray-600">
-                  Integrasikan dengan software HR yang anda punya
-               </h3>
-               <p
-                  class="text-lg leading-relaxed mt-4 mb-4 text-gray-400"
-               >
+            
+             <div class="w-full md:w-4/12 ml-auto mr-auto pl-16">
+              <img
+                alt="..."
+                class="max-w-full h-64"
+                src="@/assets/img/home/2-01.png"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="relative py-16 bg-gray-100">
+        
+        <div class="container mx-auto px-4">
+          <div class="items-center flex flex-wrap">
+            <div class="w-full md:w-4/12 ml-auto mr-auto px-16">
+              <img
+                alt="..."
+                class="max-w-full h-64"
+                src="@/assets/img/home/1-01.png"
+              />
+            </div>
+            <div class="w-full md:w-8/12 ml-auto mr-auto px-4">
+              <div class="md:pr-20">
+               
+                <h3 class="text-3xl font-semibold uppercase">Integrasikan dengan software HR yang anda punya</h3>
+                <p class="mt-4 text-lg leading-relaxed text-gray-400">
                   Ingin pakai software KPI Point namun sudah memakai software
                   HRIS lain? Semua data dapat terhubung dengan PointHR
-               </p>
+                </p>
+                <div class="pt-8">
+                  <a href="https://wa.link/qylmml" target="_blank"
+                  class="px-8 py-5  font-bold text-white uppercase rounded bg-yellow-500 hover:bg-yellow-400  "
+                        >
+                  coba sekarang
+                  </a>
+                </div>
+              </div>
             </div>
-            <div class="py-4">
-               <a href="https://wa.link/qylmml" target="_blank"
-               class="px-8 py-5  font-bold text-white uppercase rounded bg-yellow-500 hover:bg-yellow-400  "
-                     >
-               coba sekarang
-               </a>
-            </div>  
-         </div>
-         
-      </div>
+          </div>
+        </div>
+      </section>
+      
       <!-- TESTIMONI -->
       <div class="py-20">
         <div class="container mx-auto space-y-20">
