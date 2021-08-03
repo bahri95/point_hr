@@ -34,7 +34,7 @@
     v-if="isMenuOpen"
     class="absolute left-0 z-20 flex flex-col w-full p-4 mt-5 space-y-3 bg-white shadow-md"
   >
-    <router-link @click="isMenuOpen = false" to="/">Home</router-link>
+   <router-link @click="isMenuOpen = false" to="/">Home</router-link>
     <router-link @click="isMenuOpen = false" to="/product">Pricing</router-link>
     
   </div>
